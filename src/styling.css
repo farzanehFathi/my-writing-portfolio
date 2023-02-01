@@ -1,7 +1,25 @@
+/*  ==== grid-breakpoints ===
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1400px
+
+  =============================
+ */
+
 body {
   background-color: #f6f6f6;
-}
 
+  font-family: "IBM Plex Sans Arabic", sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: "El Messiri", sans-serif;
+}
 header {
   height: 400px;
   background-image: url(/images/cool-undraw.svg);
