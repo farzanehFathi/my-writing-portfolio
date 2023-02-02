@@ -57,7 +57,7 @@ h5 {
 /* ....... image on the top ....... */
 
 .img-top-card-wrapper {
-  padding: 5px 5px 15px;
+  padding: 5px 5px 10px;
   height: 100%;
 }
 
@@ -81,7 +81,7 @@ h5 {
 /* ....... full text ....... */
 
 .full-text-card-wrapper {
-  padding: 5px 5px 15px;
+  padding: 5px 5px 10px;
   height: 100%;
 }
 
@@ -97,7 +97,7 @@ h5 {
 
 .full-img-card {
   height: 100%;
-  padding: 5px 5px 15px;
+  padding: 5px 5px 10px;
 }
 
 .full-img-card img {
@@ -111,7 +111,7 @@ h5 {
 /* ....... double cards ....... */
 .double-card-warpper {
   height: 100%;
-  padding: 5px 5px;
+  padding: 5px 5px 0;
 }
 
 .img-side-card {
