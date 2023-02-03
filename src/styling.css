@@ -37,12 +37,7 @@ h5 {
 
 /* ====-----=== STYLING ELEMENTS ====----== */
 
-.link-wrapper {
-  padding: 8px 12px;
-  text-align: right;
-}
 .read-more-link {
-  margin: 0 10px 10px 0;
   padding: 3px 10px 4px 20px;
   text-decoration: none;
   color: white;
@@ -84,7 +79,7 @@ h5 {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 15px solid black;
+  border-bottom: 15px solid white;
 }
 
 /* ====-----=== CONTENT CARDS STYLING ====----== */
@@ -155,6 +150,22 @@ h5 {
   font-size: smaller;
   background-color: white;
   box-shadow: 1px 2px 15px #e5e5e5;
+}
+
+.img-side-card .title {
+  height: 65px;
+  padding: 14px 8px 3px 0;
+}
+
+.img-side-card .text {
+  height: 100px;
+  padding: 10px 8px 0;
+  text-align: right;
+}
+
+.img-side-card .link-wrapper {
+  height: 35px;
+  padding: 0 8px 0 0;
 }
 
 .img-side-card img {
