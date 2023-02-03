@@ -17,7 +17,7 @@ body {
 }
 
 header {
-  height: 550px;
+  height: 500px;
   background-image: url(/images/header-text-3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
