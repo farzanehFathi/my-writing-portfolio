@@ -9,7 +9,7 @@
   =============================
  */
 :root {
-  --base-color: tomato;
+  --base-color: #b57552;
 }
 body {
   background-color: #f6f6f6;
@@ -74,12 +74,12 @@ h5 {
 
 .arrow-up {
   position: absolute;
-  margin-top: 25px;
+  margin-right: 25px;
   width: 0;
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 15px solid white;
+  border-top: 15px solid white;
 }
 
 /* ====-----=== CONTENT CARDS STYLING ====----== */
