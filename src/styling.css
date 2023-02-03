@@ -17,15 +17,16 @@ body {
 }
 
 header {
-  height: 400px;
-  background-image: url(/images/cool-undraw.svg);
-  background-size: contain;
+  height: 550px;
+  background-image: url(/images/header-text-3.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 /* ====-----=== MAIN ELEMENTS ====----== */
 
+nav,
 h1,
 h2,
 h3,
@@ -38,18 +39,56 @@ h5 {
   line-height: 150%;
 }
 
-/* ====-----=== STYLED ELEMENTS ====----== */
+/* ====-----=== STYLING ELEMENTS ====----== */
 
-.btn-wrapper {
-  padding: 8px;
-  text-align: center;
+.link-wrapper {
+  padding: 8px 12px;
+  text-align: right;
 }
-.card-btn {
-  padding: 3px 12px;
+.read-more-link {
+  margin-right: 10px;
+  padding: 3px 10px 4px 20px;
   text-decoration: none;
   color: white;
   background-color: var(--base-color);
   font-weight: bolder;
+  transition: all 200ms ease-in-out;
+}
+
+.read-more-link:hover {
+  color: var(--base-color);
+  border: 1px solid var(--base-color);
+  background-color: white;
+}
+
+.arrow-right {
+  position: absolute;
+  margin-top: 25px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 15px solid white;
+}
+
+.arrow-left {
+  position: absolute;
+  margin-top: 25px;
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-left: 15px solid white;
+}
+
+.arrow-up {
+  position: absolute;
+  margin-top: 25px;
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid black;
 }
 
 /* ====-----=== CONTENT CARDS STYLING ====----== */
