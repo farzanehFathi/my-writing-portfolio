@@ -143,21 +143,6 @@ h5 {
   box-shadow: 1px 2px 15px #e5e5e5;
 }
 
-/* ....... full image ....... */
-
-.full-img-card-wrapper {
-  height: 100%;
-  padding: 5px 5px 10px;
-}
-
-.full-img-card-wrapper img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  box-shadow: 1px 2px 15px #e5e5e5;
-}
-
 /* ....... flip card ....... */
 
 .flip-card {
@@ -209,6 +194,10 @@ h5 {
 
 .flip-text a:hover {
   color: var(--base-color);
+}
+
+.flip-text li {
+  padding-top: 15px;
 }
 
 /* ....... double cards ....... */
