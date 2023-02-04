@@ -13,7 +13,7 @@
 }
 body {
   background-color: #f6f6f6;
-  font-family: "IBM Plex Sans Arabic", sans-serif;
+  /* font-family: "IBM Plex Sans Arabic", sans-serif; */
 }
 
 header {
@@ -90,7 +90,6 @@ h5 {
   padding: 5px 5px;
   height: 100%;
 }
-
 .img-top-card {
   max-height: 410px;
   padding: 0;
@@ -139,7 +138,6 @@ h5 {
 .full-text-card {
   max-height: 410px;
   padding: 25px 10px;
-  text-align: right;
   height: 100%;
   background-color: white;
   box-shadow: 1px 2px 15px #e5e5e5;
@@ -147,17 +145,70 @@ h5 {
 
 /* ....... full image ....... */
 
-.full-img-card {
+.full-img-card-wrapper {
   height: 100%;
   padding: 5px 5px 10px;
 }
 
-.full-img-card img {
+.full-img-card-wrapper img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
   box-shadow: 1px 2px 15px #e5e5e5;
+}
+
+/* ....... flip card ....... */
+
+.flip-card {
+  height: 100%;
+  padding: 5px 5px 10px;
+}
+
+.flip-content {
+  max-height: 410px;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-content {
+  transform: rotateY(180deg);
+  transition: transform 0.7s;
+}
+
+.flip-img img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+
+  object-fit: cover;
+  object-position: center;
+}
+
+.flip-text {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  backface-visibility: hidden;
+
+  transform: rotateY(180deg);
+
+  background-color: white;
+  box-shadow: 1px 2px 15px #e5e5e5;
+  padding: 25px 20px;
+}
+
+.flip-text a {
+  color: gray;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 15px;
+}
+
+.flip-text a:hover {
+  color: var(--base-color);
 }
 
 /* ....... double cards ....... */
