@@ -64,12 +64,21 @@ h5 {
 
 /* ====-----=== CONTENT CARDS STYLING ====----== */
 
-/* ....... image on the top ....... */
+/* ....... cards Sizing ....... */
 
-.img-top-card-wrapper {
+.card-wrapper {
   padding: 5px 5px;
   height: 100%;
 }
+
+.mini-cards {
+}
+
+.full-size-card {
+}
+
+/* ....... image on the top ....... */
+
 .img-top-card {
   max-height: 410px;
   padding: 0;
@@ -110,11 +119,6 @@ h5 {
 
 /* ....... full text ....... */
 
-.full-text-card-wrapper {
-  padding: 5px 5px 10px;
-  height: 100%;
-}
-
 .full-text-card {
   max-height: 410px;
   padding: 25px 10px;
@@ -124,11 +128,6 @@ h5 {
 }
 
 /* ....... flip card ....... */
-
-.flip-card {
-  height: 100%;
-  padding: 5px 5px 10px;
-}
 
 .flip-content {
   max-height: 410px;
@@ -181,10 +180,6 @@ h5 {
 }
 
 /* ....... double cards ....... */
-.double-card-warpper {
-  height: 100%;
-  padding: 5px 5px 0;
-}
 
 .img-side-card {
   height: 200px;
