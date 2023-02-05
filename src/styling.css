@@ -9,8 +9,10 @@
   =============================
  */
 :root {
-  --base-color: #b57552;
+  --primary-color: #5fbeb6;
+  --accent-color: #b57552;
 }
+
 body {
   background-color: #f6f6f6;
   /* font-family: "IBM Plex Sans Arabic", sans-serif; */
@@ -41,14 +43,14 @@ h5 {
   padding: 3px 10px 4px 20px;
   text-decoration: none;
   color: white;
-  background-color: var(--base-color);
+  background-color: var(--accent-color);
   font-weight: bolder;
   transition: all 200ms ease-in-out;
 }
 
 .read-more-link:hover {
-  color: var(--base-color);
-  border: 1px solid var(--base-color);
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
   background-color: white;
 }
 
@@ -82,22 +84,11 @@ h5 {
 .full-size-card {
   height: 100%;
   max-height: 410px;
-  padding: 0;
   background-color: white;
   box-shadow: 1px 2px 15px #e5e5e5;
 }
 
 /* ....... image on the top ....... */
-
-.full-size-card {
-  padding: 0;
-
-  /* max-height: 410px;
-    text-align: right;
-  height: 100%;
-  background-color: white;
-  box-shadow: 1px 2px 15px #e5e5e5; */
-}
 
 .full-size-card img {
   height: 50%;
@@ -125,31 +116,21 @@ h5 {
 }
 
 .full-size-card a:hover {
-  color: var(--base-color);
+  color: var(--accent-color);
 }
 
 /* ....... full text ....... */
 
-.full-text-card {
-  padding: 25px 10px;
-
-  /* max-height: 410px;
-  
-  height: 100%;
-  background-color: white;
-  box-shadow: 1px 2px 15px #e5e5e5; */
-}
-
 /* ....... flip card ....... */
 
-.flip-content {
-  /* max-height: 410px;
-  height: 100%; */
+.flip-card {
+  height: 100%;
+  max-height: 410px;
   transition: transform 1s;
   transform-style: preserve-3d;
 }
 
-.flip-card:hover .flip-content {
+.card-wrapper:hover .flip-card {
   transform: rotateY(180deg);
   transition: transform 0.7s;
 }
@@ -185,7 +166,7 @@ h5 {
 }
 
 .flip-text a:hover {
-  color: var(--base-color);
+  color: var(--accent-color);
 }
 
 .flip-text li {
