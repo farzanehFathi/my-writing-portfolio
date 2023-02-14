@@ -8,9 +8,48 @@
 
   =============================
  */
+
+@font-face {
+  font-family: "iranyekan";
+  src: url(../fonts/yekan/number/eot/iranyekanwebregularfanum.eot);
+  src: url(../fonts/yekan/number/eot/iranyekanwebregularfanum.eot?#iefix)
+      format("embedded-opentype"),
+    url(../fonts/yekan/number/woff/iranyekanwebregularfanum.woff) format("woff"),
+    url(../fonts/yekan/number/ttf/iranyekanwebregularfanum.ttf)
+      format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "menuicon";
+  src: url(../fonts/espardicons.eot?srtpu9);
+  src: url(../fonts/espardicons.eot?srtpu9#iefix) format("embedded-opentype"),
+    url(../fonts/espardicons.ttf?srtpu9) format("truetype"),
+    url(../fonts/espardicons.woff?srtpu9) format("woff"),
+    url(../fonts/espardicons.svg?srtpu9#icomoon) format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  src: url(../fonts/slick.eot);
+  src: url(../fonts/slick.eot?#iefix) format("embedded-opentype"),
+    url(../fonts/slick.woff) format("woff"),
+    url(../fonts/slick.ttf) format("truetype"),
+    url(../fonts/slick.svg#slick) format("svg");
+  font-display: swap;
+}
+
 :root {
   --primary-color: #5fbeb6;
-  --accent-color: #b57552;
+  --accent-color: #5fbeb6;
+  /* --accent-color: #b57552; */
 }
 
 body {
@@ -19,9 +58,9 @@ body {
 }
 
 header {
-  height: 500px;
-  background-image: url(/images/header-text-3.jpg);
-  background-size: cover;
+  height: 0px;
+  background-image: url(/images/new-header.png);
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -34,7 +73,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: "El Messiri", sans-serif;
+  font-family: "iranyekan", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -52,6 +91,7 @@ ul {
 /* ====-----=== STYLING ELEMENTS ====----== */
 
 .read-more-link {
+  font-size: 11px;
   padding: 3px 10px 4px 20px;
   text-decoration: none;
   color: white;
@@ -92,13 +132,13 @@ ul {
 /* ....... cards Sizing ....... */
 
 .card-wrapper {
-  padding: 5px 5px;
+  padding: 3px 3px;
   height: 100%;
 }
 
 .mini-cards {
   height: 200px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   font-size: smaller;
   background-color: white;
   box-shadow: 1px 2px 15px #e5e5e5;
@@ -106,7 +146,7 @@ ul {
 
 .full-size-card {
   height: 100%;
-  max-height: 410px;
+  max-height: 406px;
   background-color: white;
   box-shadow: 1px 2px 15px #e5e5e5;
 }
