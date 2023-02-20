@@ -118,6 +118,28 @@ ul {
   box-shadow: 0 3px 2px 0 rgb(0 0 0 / 8%);
 }
 
+.navbar-toggler {
+  border-radius: 0;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  color: var(--primary-color);
+}
+
+.navbar-collapse {
+  background-color: #f8f9fa;
+  /* box-shadow: 0 4px 3px 0 rgb(0 0 0 / 12%); */
+  z-index: 1000;
+}
+
+/* ------------------ */
+
 .titles-list {
   margin-top: 20px;
 }
