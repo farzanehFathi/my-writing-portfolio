@@ -81,6 +81,7 @@ ul {
   padding: 0;
 }
 
+/*  ++++ NAVBAR STYLING */
 .navbar {
   height: 50px;
   box-shadow: 1px 2px 3px 0 rgb(0 0 0 / 8%);
@@ -90,7 +91,21 @@ ul {
   margin: 0 auto;
   display: flex;
   justify-content: center;
-  font-size: 12px;
+}
+
+.dropdown-item,
+.nav-item {
+  font-size: 13px;
+}
+
+.navbar-nav .nav-link {
+  height: 50px;
+  padding: 15px 12px 0;
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff;
+  background-color: var(--primary-color);
 }
 
 .titles-list {
