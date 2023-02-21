@@ -138,6 +138,16 @@ ul {
   z-index: 1000;
 }
 
+.social-icons a {
+  color: #8d8c8c;
+  font-size: 13px;
+  margin-right: 12px;
+}
+
+.social-icons a:hover {
+  color: var(--primary-color);
+}
+
 /* ------------------ */
 
 .titles-list {
