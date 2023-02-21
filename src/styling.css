@@ -94,8 +94,15 @@ ul {
 }
 
 .dropdown-item,
-.nav-item {
+.nav-link {
   font-size: 13px;
+  color: #606060;
+}
+
+.dropdown-item:hover,
+.nav-link:hover {
+  color: #fff;
+  background-color: var(--primary-color);
 }
 
 .navbar-nav .nav-link {
