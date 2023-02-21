@@ -97,6 +97,7 @@ ul {
 .nav-link {
   font-size: 13px;
   color: #606060;
+  transition: all 0.2s ease-out;
 }
 
 .dropdown-item:hover,
@@ -149,6 +150,7 @@ ul {
   color: #8d8c8c;
   font-size: 13px;
   margin-right: 12px;
+  transition: all 0.3s ease-out;
 }
 
 .social-icons a:hover {
